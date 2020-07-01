@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinRadioButton.MainPage"
+             xmlns:local="clr-namespace:XamarinRadioButton">
+
+
+    <StackLayout x:Name="containerLayout" Padding="40, 40">
+        <!-- Place new controls here -->
+
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+
+        <!--<local:RadioButtonGroup x:Name="MyRadiouGroup" VerticalOptions="Start" />-->
+
+
+
+        <!--<ListView x:Name="listView" ItemTapped="listView_ItemTapped" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout x:Name="transactionList" ChildAdded="transactionList_ChildAdded" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                            <local:RadioButtonControl Uid="{Binding UniqNo}" ClassId="transactionRadioBtn"  />
+                            <Label Text="{Binding Name}" />                           
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+
+        <ListView x:Name="listView" ItemSelected="listView_ItemSelected" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <StackLayout x:Name="transactionList" ChildAdded="transactionList_ChildAdded" Orientation="Horizontal" Padding="5">
+                            <local:RadioButtonControl Uid="{Binding UniqNo}" ClassId="transactionRadioBtn" Padding="10,10,10,10"  />
+
+                            <StackLayout Padding="0,0,0,0"  x:Name="listData">
+                                <Label  Text="{Binding Description}" TextColor="Black" FontSize="Medium"/>
+                                <Label Text="{Binding Date}" TextColor="Gray"/>
+                            </StackLayout>
+                            <StackLayout Padding="20,0,20,0">
+                                <Label  Text="{Binding Amount}" TextColor="Black" FontSize="Medium"/>
+                                <Label Text="*1234" TextColor="Gray"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="Change Radio color" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

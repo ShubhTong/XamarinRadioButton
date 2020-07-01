@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\bin\Debug\netstandard2.0\XamarinRadioButton.deps.json
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\bin\Debug\netstandard2.0\XamarinRadioButton.dll
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\bin\Debug\netstandard2.0\ref\XamarinRadioButton.dll
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\bin\Debug\netstandard2.0\XamarinRadioButton.pdb
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\XamarinRadioButton.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\XamarinRadioButton.AssemblyInfo.cs
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\XamarinRadioButton.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\XamarinRadioButton.dll
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\ref\XamarinRadioButton.dll
+C:\Users\Admin\source\repos\XamarinRadioButton\XamarinRadioButton\XamarinRadioButton\obj\Debug\netstandard2.0\XamarinRadioButton.pdb
